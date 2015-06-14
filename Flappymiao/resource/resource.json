@@ -1,0 +1,9 @@
+{
+"resources":
+	[{"url":"assets/mr.json","name":"mr","type":"sheet"},
+		{"name":"texture_png","type":"image","url":"assets/littlepig/texture.png"},
+		{"name":"skeleton_json","type":"json","url":"assets/littlepig/skeleton.json"},
+		{"name":"texture_json","type":"json","url":"assets/littlepig/texture.json"}],
+"groups":[{"name":"preload",
+	"keys":"mr,texture_png,texture_json,skeleton_json"}]
+}

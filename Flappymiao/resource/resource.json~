@@ -1,0 +1,9 @@
+{
+"resources":
+	[{"url":"assets/mr.json","name":"mr","type":"sheet"},
+		{"name":"texture_png","type":"image","url":"assets/armature/texture.png"},
+		{"name":"skeleton_json","type":"json","url":"assets/armature/skeleton.json"},
+		{"name":"texture_json","type":"json","url":"assets/armature/texture.json"}],
+"groups":[{"name":"preload",
+	"keys":"mr,texture_png,texture_json,skeleton_json"}]
+}

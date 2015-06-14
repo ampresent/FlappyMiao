@@ -1,0 +1,1532 @@
+{"armature": [
+    {
+        "skin": [
+            {
+                "name": 0,
+                "slot": [
+                    {
+                        "name": "right_shoe",
+                        "z": 0,
+                        "display": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 0,
+                                    "pX": 0.5,
+                                    "skX": 0,
+                                    "y": 0,
+                                    "pY": 0.5,
+                                    "x": 0,
+                                    "scY": 1
+                                },
+                                "name": "MovieClip/sprite 13",
+                                "type": "image"
+                            }
+                        ],
+                        "parent": "right_shoe"
+                    },
+                    {
+                        "name": "left_shoe",
+                        "z": 1,
+                        "display": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 0,
+                                    "pX": 0.5,
+                                    "skX": 0,
+                                    "y": 0,
+                                    "pY": 0.5,
+                                    "x": 0,
+                                    "scY": 1
+                                },
+                                "name": "MovieClip/sprite 13",
+                                "type": "image"
+                            }
+                        ],
+                        "parent": "left_shoe"
+                    },
+                    {
+                        "name": "right_trouser",
+                        "z": 2,
+                        "display": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 0,
+                                    "pX": 0.5,
+                                    "skX": 0,
+                                    "y": 0,
+                                    "pY": 0.5,
+                                    "x": 0,
+                                    "scY": 1
+                                },
+                                "name": "MovieClip/sprite 15",
+                                "type": "image"
+                            }
+                        ],
+                        "parent": "right_trouser"
+                    },
+                    {
+                        "name": "broom",
+                        "z": 3,
+                        "display": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 0,
+                                    "pX": 0.35,
+                                    "skX": 0,
+                                    "y": 0,
+                                    "pY": 10.8,
+                                    "x": 0,
+                                    "scY": 1
+                                },
+                                "name": "MovieClip/sprite 19",
+                                "type": "image"
+                            }
+                        ],
+                        "parent": "broom"
+                    },
+                    {
+                        "name": "dress",
+                        "z": 4,
+                        "display": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 0,
+                                    "pX": 0.5,
+                                    "skX": 0,
+                                    "y": 0,
+                                    "pY": 0.5,
+                                    "x": 0,
+                                    "scY": 1
+                                },
+                                "name": "MovieClip/sprite 21",
+                                "type": "image"
+                            }
+                        ],
+                        "parent": "dress"
+                    },
+                    {
+                        "name": "left_trouser",
+                        "z": 5,
+                        "display": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 0,
+                                    "pX": 0.5,
+                                    "skX": 0,
+                                    "y": 0,
+                                    "pY": 0.5,
+                                    "x": 0,
+                                    "scY": 1
+                                },
+                                "name": "MovieClip/sprite 15",
+                                "type": "image"
+                            }
+                        ],
+                        "parent": "left_trouser"
+                    },
+                    {
+                        "name": "hands",
+                        "z": 6,
+                        "display": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 0,
+                                    "pX": 0.45,
+                                    "skX": 0,
+                                    "y": 0,
+                                    "pY": 0,
+                                    "x": 0,
+                                    "scY": 1
+                                },
+                                "name": "MovieClip/sprite 23",
+                                "type": "image"
+                            }
+                        ],
+                        "parent": "hands"
+                    },
+                    {
+                        "name": "hat_tail",
+                        "z": 7,
+                        "display": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 0,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": 0,
+                                    "pY": 0.5,
+                                    "x": 0,
+                                    "scY": 1
+                                },
+                                "name": "MovieClip/sprite 26",
+                                "type": "image"
+                            }
+                        ],
+                        "parent": "hat_tail"
+                    },
+                    {
+                        "name": "hat",
+                        "z": 8,
+                        "display": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 0,
+                                    "pX": 0.5,
+                                    "skX": 0,
+                                    "y": 0,
+                                    "pY": 0.5,
+                                    "x": 0,
+                                    "scY": 1
+                                },
+                                "name": "MovieClip/sprite 28",
+                                "type": "image"
+                            }
+                        ],
+                        "parent": "hat"
+                    },
+                    {
+                        "name": "head",
+                        "z": 9,
+                        "display": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 0,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -73.5,
+                                    "pY": 0,
+                                    "x": -48.95,
+                                    "scY": 1
+                                },
+                                "name": "foody",
+                                "type": "image"
+                            }
+                        ],
+                        "parent": "head"
+                    }
+                ]
+            }
+        ],
+        "animation": [
+            {
+                "name": "fly",
+                "scale": 1,
+                "loop": 0,
+                "timeline": [
+                    {
+                        "name": "right_shoe",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 0,
+                                "duration": 14,
+                                "transform": {
+                                    "scX": 0.79,
+                                    "skY": -135,
+                                    "pX": 0,
+                                    "skX": 45,
+                                    "y": 71.05,
+                                    "pY": 0,
+                                    "x": 58.45,
+                                    "scY": 0.79
+                                },
+                                "colorTransform": {
+                                    "rM": 50,
+                                    "bO": 0,
+                                    "bM": 50,
+                                    "aM": 100,
+                                    "rO": 0,
+                                    "gO": 0,
+                                    "gM": 50,
+                                    "aO": 0
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 0,
+                                "duration": 1,
+                                "transform": {
+                                    "scX": 0.79,
+                                    "skY": -113.71,
+                                    "pX": 0,
+                                    "skX": 66.29,
+                                    "y": 76.1,
+                                    "pY": 0,
+                                    "x": 36.9,
+                                    "scY": 0.79
+                                },
+                                "colorTransform": {
+                                    "rM": 50,
+                                    "bO": 0,
+                                    "bM": 50,
+                                    "aM": 100,
+                                    "rO": 0,
+                                    "gO": 0,
+                                    "gM": 50,
+                                    "aO": 0
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 0,
+                                "duration": 14,
+                                "transform": {
+                                    "scX": 0.79,
+                                    "skY": -115.07,
+                                    "pX": 0,
+                                    "skX": 64.93,
+                                    "y": 75.85,
+                                    "pY": 0,
+                                    "x": 38.35,
+                                    "scY": 0.79
+                                },
+                                "colorTransform": {
+                                    "rM": 50,
+                                    "bO": 0,
+                                    "bM": 50,
+                                    "aM": 100,
+                                    "rO": 0,
+                                    "gO": 0,
+                                    "gM": 50,
+                                    "aO": 0
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 0,
+                                "duration": 1,
+                                "transform": {
+                                    "scX": 0.79,
+                                    "skY": -135,
+                                    "pX": 0,
+                                    "skX": 45,
+                                    "y": 71.05,
+                                    "pY": 0,
+                                    "x": 58.45,
+                                    "scY": 0.79
+                                },
+                                "colorTransform": {
+                                    "rM": 50,
+                                    "bO": 0,
+                                    "bM": 50,
+                                    "aM": 100,
+                                    "rO": 0,
+                                    "gO": 0,
+                                    "gM": 50,
+                                    "aO": 0
+                                }
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "left_shoe",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 1,
+                                "duration": 14,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": 41,
+                                    "pY": 0,
+                                    "x": 96.1,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 1,
+                                "duration": 1,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -165.93,
+                                    "pX": 0,
+                                    "skX": 14.07,
+                                    "y": 54.55,
+                                    "pY": 0,
+                                    "x": 84.95,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 1,
+                                "duration": 14,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -166.96,
+                                    "pX": 0,
+                                    "skX": 13.04,
+                                    "y": 53.55,
+                                    "pY": 0,
+                                    "x": 85.6,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": 41,
+                                    "pY": 0,
+                                    "x": 96.1,
+                                    "scY": 1
+                                },
+                                "z": 1,
+                                "duration": 1
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "right_trouser",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 2,
+                                "duration": 14,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -165,
+                                    "pX": 0,
+                                    "skX": 15,
+                                    "y": 17.05,
+                                    "pY": 0,
+                                    "x": 69.85,
+                                    "scY": 1
+                                },
+                                "colorTransform": {
+                                    "rM": 50,
+                                    "bO": 0,
+                                    "bM": 50,
+                                    "aM": 100,
+                                    "rO": 0,
+                                    "gO": 0,
+                                    "gM": 50,
+                                    "aO": 0
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 2,
+                                "duration": 1,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -143.71,
+                                    "pX": 0,
+                                    "skX": 36.29,
+                                    "y": 29.95,
+                                    "pY": 0,
+                                    "x": 67.2,
+                                    "scY": 1
+                                },
+                                "colorTransform": {
+                                    "rM": 50,
+                                    "bO": 0,
+                                    "bM": 50,
+                                    "aM": 100,
+                                    "rO": 0,
+                                    "gO": 0,
+                                    "gM": 50,
+                                    "aO": 0
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 2,
+                                "duration": 14,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -145.16,
+                                    "pX": 0,
+                                    "skX": 34.84,
+                                    "y": 29.05,
+                                    "pY": 0,
+                                    "x": 67.35,
+                                    "scY": 1
+                                },
+                                "colorTransform": {
+                                    "rM": 50,
+                                    "bO": 0,
+                                    "bM": 50,
+                                    "aM": 100,
+                                    "rO": 0,
+                                    "gO": 0,
+                                    "gM": 50,
+                                    "aO": 0
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 2,
+                                "duration": 1,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -165,
+                                    "pX": 0,
+                                    "skX": 15,
+                                    "y": 17.05,
+                                    "pY": 0,
+                                    "x": 69.85,
+                                    "scY": 1
+                                },
+                                "colorTransform": {
+                                    "rM": 50,
+                                    "bO": 0,
+                                    "bM": 50,
+                                    "aM": 100,
+                                    "rO": 0,
+                                    "gO": 0,
+                                    "gM": 50,
+                                    "aO": 0
+                                }
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "broom",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 3,
+                                "duration": 14,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": 5.6,
+                                    "pY": 0,
+                                    "x": 170.95,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 3,
+                                "duration": 15,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -173.71,
+                                    "pX": 0,
+                                    "skX": 6.29,
+                                    "y": 19.1,
+                                    "pY": 0,
+                                    "x": 167.15,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": 5.6,
+                                    "pY": 0,
+                                    "x": 170.95,
+                                    "scY": 1
+                                },
+                                "z": 3,
+                                "duration": 1
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "dress",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 4,
+                                "duration": 4,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -46.1,
+                                    "pY": 0,
+                                    "x": 70.8,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 4,
+                                "duration": 1,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -178.24,
+                                    "pX": 0,
+                                    "skX": 1.76,
+                                    "y": -45.3,
+                                    "pY": 0,
+                                    "x": 71.4,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 4,
+                                "duration": 3,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -177.94,
+                                    "pX": 0,
+                                    "skX": 2.06,
+                                    "y": -45.25,
+                                    "pY": 0,
+                                    "x": 71.5,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 4,
+                                "duration": 1,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -176.48,
+                                    "pX": 0,
+                                    "skX": 3.52,
+                                    "y": -44.55,
+                                    "pY": 0,
+                                    "x": 72.15,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 4,
+                                "duration": 1,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -175.99,
+                                    "pX": 0,
+                                    "skX": 4.01,
+                                    "y": -44.25,
+                                    "pY": 0,
+                                    "x": 72.25,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 4,
+                                "duration": 4,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -175.69,
+                                    "pX": 0,
+                                    "skX": 4.31,
+                                    "y": -44.2,
+                                    "pY": 0,
+                                    "x": 72.4,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 4,
+                                "duration": 8,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -173.71,
+                                    "pX": 0,
+                                    "skX": 6.29,
+                                    "y": -43.25,
+                                    "pY": 0,
+                                    "x": 73.3,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 4,
+                                "duration": 1,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -177.2,
+                                    "pX": 0,
+                                    "skX": 2.8,
+                                    "y": -44.95,
+                                    "pY": 0,
+                                    "x": 71.9,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 4,
+                                "duration": 5,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -177.5,
+                                    "pX": 0,
+                                    "skX": 2.5,
+                                    "y": -45,
+                                    "pY": 0,
+                                    "x": 71.8,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 4,
+                                "duration": 1,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -179.71,
+                                    "pX": 0,
+                                    "skX": 0.29,
+                                    "y": -46.1,
+                                    "pY": 0,
+                                    "x": 70.85,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -46.1,
+                                    "pY": 0,
+                                    "x": 70.8,
+                                    "scY": 1
+                                },
+                                "z": 4,
+                                "duration": 1
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "left_trouser",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 5,
+                                "duration": 14,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": 12.75,
+                                    "pY": 0,
+                                    "x": 80.5,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 5,
+                                "duration": 1,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -165.93,
+                                    "pX": 0,
+                                    "skX": 14.07,
+                                    "y": 23.35,
+                                    "pY": 0,
+                                    "x": 76.7,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 5,
+                                "duration": 14,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -166.96,
+                                    "pX": 0,
+                                    "skX": 13.04,
+                                    "y": 22.55,
+                                    "pY": 0,
+                                    "x": 76.8,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": 12.75,
+                                    "pY": 0,
+                                    "x": 80.5,
+                                    "scY": 1
+                                },
+                                "z": 5,
+                                "duration": 1
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "hands",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 6,
+                                "duration": 14,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -28.3,
+                                    "pY": 0,
+                                    "x": 122.75,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 6,
+                                "duration": 5,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -173.71,
+                                    "pX": 0,
+                                    "skX": 6.29,
+                                    "y": -19.85,
+                                    "pY": 0,
+                                    "x": 122.95,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "z": 6,
+                                "duration": 10,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -175.95,
+                                    "pX": 0,
+                                    "skX": 4.05,
+                                    "y": -22.9,
+                                    "pY": 0,
+                                    "x": 122.75,
+                                    "scY": 1
+                                },
+                                "tweenEasing": 0
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -28.3,
+                                    "pY": 0,
+                                    "x": 122.75,
+                                    "scY": 1
+                                },
+                                "z": 6,
+                                "duration": 1
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "hat_tail",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -122.55,
+                                    "pY": 0,
+                                    "x": 53.8,
+                                    "scY": 1
+                                },
+                                "z": 7,
+                                "duration": 14
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -174,
+                                    "pX": 0,
+                                    "skX": 6,
+                                    "y": -127.7,
+                                    "pY": 0,
+                                    "x": 62.1,
+                                    "scY": 1
+                                },
+                                "z": 7,
+                                "duration": 15
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -122.55,
+                                    "pY": 0,
+                                    "x": 53.8,
+                                    "scY": 1
+                                },
+                                "z": 7,
+                                "duration": 1
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "hat",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -125.85,
+                                    "pY": 0,
+                                    "x": 126.9,
+                                    "scY": 1
+                                },
+                                "z": 8,
+                                "duration": 14
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -170.17,
+                                    "pX": 0,
+                                    "skX": 9.83,
+                                    "y": -117.6,
+                                    "pY": 0,
+                                    "x": 134.85,
+                                    "scY": 1
+                                },
+                                "z": 8,
+                                "duration": 15
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -125.85,
+                                    "pY": 0,
+                                    "x": 126.9,
+                                    "scY": 1
+                                },
+                                "z": 8,
+                                "duration": 1
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "head",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -39.05,
+                                    "pY": 0,
+                                    "x": 73.95,
+                                    "scY": 1
+                                },
+                                "z": 9,
+                                "duration": 14
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -170.17,
+                                    "pX": 0,
+                                    "skX": 9.83,
+                                    "y": -41.2,
+                                    "pY": -0.1,
+                                    "x": 68,
+                                    "scY": 1
+                                },
+                                "z": 9,
+                                "duration": 15
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -39.05,
+                                    "pY": 0,
+                                    "x": 73.95,
+                                    "scY": 1
+                                },
+                                "z": 9,
+                                "duration": 1
+                            }
+                        ],
+                        "offset": 0
+                    }
+                ],
+                "fadeInTime": 0.3,
+                "duration": 30,
+                "tweenEasing": null
+            },
+            {
+                "name": "jump",
+                "scale": 1,
+                "loop": 1,
+                "timeline": [
+                    {
+                        "name": "right_shoe",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 0,
+                                "duration": 10,
+                                "transform": {
+                                    "scX": 0.79,
+                                    "skY": -98.94,
+                                    "pX": 0,
+                                    "skX": 81.06,
+                                    "y": 77.15,
+                                    "pY": 0,
+                                    "x": 34.15,
+                                    "scY": 0.79
+                                },
+                                "colorTransform": {
+                                    "rM": 50,
+                                    "bO": 0,
+                                    "bM": 50,
+                                    "aM": 100,
+                                    "rO": 0,
+                                    "gO": 0,
+                                    "gM": 50,
+                                    "aO": 0
+                                }
+                            },
+                            {
+                                "z": 0,
+                                "duration": 11,
+                                "transform": {
+                                    "scX": 0.79,
+                                    "skY": -135,
+                                    "pX": 0,
+                                    "skX": 45,
+                                    "y": 71.05,
+                                    "pY": 0,
+                                    "x": 58.45,
+                                    "scY": 0.79
+                                },
+                                "colorTransform": {
+                                    "rM": 50,
+                                    "bO": 0,
+                                    "bM": 50,
+                                    "aM": 100,
+                                    "rO": 0,
+                                    "gO": 0,
+                                    "gM": 50,
+                                    "aO": 0
+                                }
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "left_shoe",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -143.94,
+                                    "pX": 0,
+                                    "skX": 36.06,
+                                    "y": 75.05,
+                                    "pY": 0,
+                                    "x": 82.2,
+                                    "scY": 1
+                                },
+                                "z": 1,
+                                "duration": 10
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": 41,
+                                    "pY": 0,
+                                    "x": 96.1,
+                                    "scY": 1
+                                },
+                                "z": 1,
+                                "duration": 11
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "right_trouser",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "z": 2,
+                                "duration": 10,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 167.15,
+                                    "pX": 0,
+                                    "skX": -12.85,
+                                    "y": 0.65,
+                                    "pY": 0,
+                                    "x": 69.15,
+                                    "scY": 1
+                                },
+                                "colorTransform": {
+                                    "rM": 50,
+                                    "bO": 0,
+                                    "bM": 50,
+                                    "aM": 100,
+                                    "rO": 0,
+                                    "gO": 0,
+                                    "gM": 50,
+                                    "aO": 0
+                                }
+                            },
+                            {
+                                "z": 2,
+                                "duration": 11,
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -165,
+                                    "pX": 0,
+                                    "skX": 15,
+                                    "y": 17.05,
+                                    "pY": 0,
+                                    "x": 69.85,
+                                    "scY": 1
+                                },
+                                "colorTransform": {
+                                    "rM": 50,
+                                    "bO": 0,
+                                    "bM": 50,
+                                    "aM": 100,
+                                    "rO": 0,
+                                    "gO": 0,
+                                    "gM": 50,
+                                    "aO": 0
+                                }
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "broom",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 152.15,
+                                    "pX": 0,
+                                    "skX": -27.85,
+                                    "y": -56.6,
+                                    "pY": 0,
+                                    "x": 153.05,
+                                    "scY": 1
+                                },
+                                "z": 3,
+                                "duration": 10
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": 5.6,
+                                    "pY": 0,
+                                    "x": 170.95,
+                                    "scY": 1
+                                },
+                                "z": 3,
+                                "duration": 11
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "dress",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -172,
+                                    "pX": 0,
+                                    "skX": 8,
+                                    "y": -46.55,
+                                    "pY": 0,
+                                    "x": 82.2,
+                                    "scY": 1
+                                },
+                                "z": 4,
+                                "duration": 10
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -46.1,
+                                    "pY": 0,
+                                    "x": 70.8,
+                                    "scY": 1
+                                },
+                                "z": 4,
+                                "duration": 11
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "left_trouser",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 152.15,
+                                    "pX": 0,
+                                    "skX": -27.85,
+                                    "y": -8.1,
+                                    "pY": 0,
+                                    "x": 76.55,
+                                    "scY": 1
+                                },
+                                "z": 5,
+                                "duration": 10
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": 12.75,
+                                    "pY": 0,
+                                    "x": 80.5,
+                                    "scY": 1
+                                },
+                                "z": 5,
+                                "duration": 11
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "hands",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": -153,
+                                    "pX": 0,
+                                    "skX": 27,
+                                    "y": -30.05,
+                                    "pY": 0,
+                                    "x": 128.45,
+                                    "scY": 1
+                                },
+                                "z": 6,
+                                "duration": 10
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -28.3,
+                                    "pY": 0,
+                                    "x": 122.75,
+                                    "scY": 1
+                                },
+                                "z": 6,
+                                "duration": 11
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "hat_tail",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 157,
+                                    "pX": 0,
+                                    "skX": -23,
+                                    "y": -131.7,
+                                    "pY": 0,
+                                    "x": 25.35,
+                                    "scY": 1
+                                },
+                                "z": 7,
+                                "duration": 10
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -124.55,
+                                    "pY": 0,
+                                    "x": 54.8,
+                                    "scY": 1
+                                },
+                                "z": 7,
+                                "duration": 11
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "hat",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 165,
+                                    "pX": 0,
+                                    "skX": -15,
+                                    "y": -151.05,
+                                    "pY": 0,
+                                    "x": 95.4,
+                                    "scY": 1
+                                },
+                                "z": 8,
+                                "duration": 10
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -125.85,
+                                    "pY": 0,
+                                    "x": 126.9,
+                                    "scY": 1
+                                },
+                                "z": 8,
+                                "duration": 11
+                            }
+                        ],
+                        "offset": 0
+                    },
+                    {
+                        "name": "head",
+                        "scale": 1,
+                        "frame": [
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 156,
+                                    "pX": -0.1,
+                                    "skX": -24,
+                                    "y": -52.05,
+                                    "pY": 0,
+                                    "x": 67.6,
+                                    "scY": 1
+                                },
+                                "z": 9,
+                                "duration": 10
+                            },
+                            {
+                                "transform": {
+                                    "scX": 1,
+                                    "skY": 180,
+                                    "pX": 0,
+                                    "skX": 0,
+                                    "y": -39.05,
+                                    "pY": 0,
+                                    "x": 73.95,
+                                    "scY": 1
+                                },
+                                "z": 9,
+                                "duration": 11
+                            }
+                        ],
+                        "offset": 0
+                    }
+                ],
+                "fadeInTime": 0.3,
+                "duration": 21,
+                "tweenEasing": null
+            }
+        ],
+        "bone": [
+            {
+                "transform": {
+                    "scY": 1,
+                    "scX": 1,
+                    "x": 73.95,
+                    "skY": 180,
+                    "skX": 0,
+                    "y": -39.05
+                },
+                "name": "head"
+            },
+            {
+                "transform": {
+                    "scY": 1,
+                    "scX": 1,
+                    "x": 126.9,
+                    "skY": 180,
+                    "skX": 0,
+                    "y": -125.85
+                },
+                "name": "hat",
+                "parent": "dress"
+            },
+            {
+                "transform": {
+                    "scY": 1,
+                    "scX": 1,
+                    "x": 53.8,
+                    "skY": 180,
+                    "skX": 0,
+                    "y": -122.55
+                },
+                "name": "hat_tail",
+                "parent": "hat"
+            },
+            {
+                "transform": {
+                    "scY": 1,
+                    "scX": 1,
+                    "x": 122.75,
+                    "skY": 180,
+                    "skX": 0,
+                    "y": -28.3
+                },
+                "name": "hands",
+                "parent": "dress"
+            },
+            {
+                "transform": {
+                    "scY": 1,
+                    "scX": 1,
+                    "x": 80.5,
+                    "skY": 180,
+                    "skX": 0,
+                    "y": 12.75
+                },
+                "name": "left_trouser",
+                "parent": "dress"
+            },
+            {
+                "transform": {
+                    "scY": 1,
+                    "scX": 1,
+                    "x": 70.8,
+                    "skY": 180,
+                    "skX": 0,
+                    "y": -46.1
+                },
+                "name": "dress"
+            },
+            {
+                "transform": {
+                    "scY": 1,
+                    "scX": 1,
+                    "x": 170.95,
+                    "skY": 180,
+                    "skX": 0,
+                    "y": 5.6
+                },
+                "name": "broom"
+            },
+            {
+                "transform": {
+                    "scY": 1,
+                    "scX": 1,
+                    "x": 69.85,
+                    "skY": -165,
+                    "skX": 15,
+                    "y": 17.05
+                },
+                "name": "right_trouser",
+                "parent": "dress"
+            },
+            {
+                "transform": {
+                    "scY": 1,
+                    "scX": 1,
+                    "x": 96.1,
+                    "skY": 180,
+                    "skX": 0,
+                    "y": 41
+                },
+                "name": "left_shoe",
+                "parent": "left_trouser"
+            },
+            {
+                "transform": {
+                    "scY": 0.79,
+                    "scX": 0.79,
+                    "x": 58.45,
+                    "skY": -135,
+                    "skX": 45,
+                    "y": 71.05
+                },
+                "name": "right_shoe",
+                "parent": "right_trouser"
+            }
+        ],
+        "name": "littlepig"
+    }
+], "name": "littlepig", "frameRate": 27, "version": 2.3}
