@@ -4,6 +4,7 @@ A HTML5 game/demo, imitating Flappy Bird.
 This demo was based on [Egret Engine][2].
 
 [Preview][1]
+
 1. Wait for seconds to load the game.
 2. Resize the game to fit in the browser.
 3. Click the lolipop to start game.
