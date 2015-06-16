@@ -3,18 +3,18 @@
  */
 
 module game {
-    export class BirdUI extends egret.UIAsset{
+    export class BirdUI extends egret.gui.UIAsset{
 
         public constructor(){
             super();
-            this.addEventListener(egret.UIEvent.CREATION_COMPLETE , this.createCompleteEvent, this);
+            this.addEventListener(egret.gui.UIEvent.CREATION_COMPLETE , this.createCompleteEvent, this);
         }
 
         //public armatureDisplay:any;
 
         public armature:any;
-        public createCompleteEvent(event:egret.UIEvent):void{
-            this.removeEventListener(egret.UIEvent.CREATION_COMPLETE , this.createCompleteEvent, this);
+        public createCompleteEvent(event:egret.gui.UIEvent):void{
+            this.removeEventListener(egret.gui.UIEvent.CREATION_COMPLETE , this.createCompleteEvent, this);
             ApplicationFacade.getInstance().registerMediator( new BirdMediator(this) );
 
             var skeletonData = RES.getRes("skeleton_json");

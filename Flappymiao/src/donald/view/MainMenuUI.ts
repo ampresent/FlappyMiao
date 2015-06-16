@@ -3,19 +3,19 @@
  */
 
 module game{
-    export class MainMenuUI extends egret.SkinnableContainer{
+    export class MainMenuUI extends egret.gui.SkinnableContainer{
 
-        public label_life:egret.Label;
-        public label_score:egret.Label;
+        public label_life:egret.gui.Label;
+        public label_score:egret.gui.Label;
 
         public constructor(){
             super();
             this.skinName = MainMenuUISkin;
-            this.addEventListener(egret.UIEvent.CREATION_COMPLETE, this.createCompleteEvent,this);
+            this.addEventListener(egret.gui.UIEvent.CREATION_COMPLETE, this.createCompleteEvent,this);
         }
 
         public createCompleteEvent():void{
-            this.removeEventListener(egret.UIEvent.CREATION_COMPLETE, this.createCompleteEvent,this);
+            this.removeEventListener(egret.gui.UIEvent.CREATION_COMPLETE, this.createCompleteEvent,this);
             ApplicationFacade.getInstance().registerMediator( new MainMenuMediator(this) );
 
         }

@@ -3,7 +3,7 @@
  */
 
 module game{
-    class BonusUI extends egret.UIAsset {
+    class BonusUI extends egret.gui.UIAsset {
         public constructor() {
             super();
             this.source = "mr.bonus";

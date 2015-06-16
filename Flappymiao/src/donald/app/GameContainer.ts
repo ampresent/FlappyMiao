@@ -4,19 +4,19 @@
 
 module game{
 
-    export class GameContainer extends egret.UIStage{
+    export class GameContainer extends egret.gui.UIStage{
         public mainGameUI:MainGameUI;
         public mainMenuUI:MainMenuUI;
-        public blackmask:egret.UIAsset;
+        public blackmask:egret.gui.UIAsset;
         public greeterUI:GreeterUI;
         public gameOverUI:GameOverUI;
         public constructor(){
             super();
-            this.addEventListener(egret.UIEvent.CREATION_COMPLETE, this.createCompleteEvent,this);
+            this.addEventListener(egret.gui.UIEvent.CREATION_COMPLETE, this.createCompleteEvent,this);
         }
 
-        private createCompleteEvent(event:egret.UIEvent):void{
-            this.removeEventListener(egret.UIEvent.CREATION_COMPLETE,this.createCompleteEvent,this);
+        private createCompleteEvent(event:egret.gui.UIEvent):void{
+            this.removeEventListener(egret.gui.UIEvent.CREATION_COMPLETE,this.createCompleteEvent,this);
             ApplicationFacade.getInstance().registerMediator(new ApplicationMediator(this));
 
             //ApplicationFacade.getInstance().sendNotification(GameCommand.GAME_RESET);
@@ -40,7 +40,7 @@ module game{
             _bm.graphics.drawRect(0,0,Constants.screenWidth,Constants.screenHeight);
             _bm.graphics.endFill();
 
-            this.blackmask = new egret.UIAsset;
+            this.blackmask = new egret.gui.UIAsset;
             this.blackmask.source = _bm;
             this.blackmask.alpha = 1;
             this.addElement(this.blackmask);

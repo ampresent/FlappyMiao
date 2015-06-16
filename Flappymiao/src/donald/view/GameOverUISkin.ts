@@ -3,10 +3,10 @@
  */
 
 module game{
-    export class GameOverUISkin extends egret.Skin{
+    export class GameOverUISkin extends egret.gui.Skin{
 
         private static _skinParts:Array<string> = ["tryagin_button"];
-        public tryagin_button:egret.UIAsset;
+        public tryagin_button:egret.gui.UIAsset;
         public get skinParts():Array<string>{
             return GameOverUISkin._skinParts;
         }
@@ -16,13 +16,13 @@ module game{
         }
 
         public createChildren():void{
-            var background = new egret.UIAsset;
+            var background = new egret.gui.UIAsset;
             this.addElement(background);
             background.source = "mr.gameover";
             background.scaleX *= 1.59;
             background.scaleY *= 1.59;
 
-            this.tryagin_button = new egret.UIAsset();
+            this.tryagin_button = new egret.gui.UIAsset();
             this.tryagin_button.source = "mr.button1";
             this.tryagin_button.anchorOffsetX = 0;
             this.tryagin_button.anchorOffsetY = 0;

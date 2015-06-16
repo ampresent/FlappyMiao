@@ -3,19 +3,19 @@
  */
 
 module game{
-    export class StartButtonSkin extends egret.Skin{
+    export class StartButtonSkin extends egret.gui.Skin{
 
         public constructor(){
             super();
             this.states = ["up","down"];
         }
 
-        private stick:egret.UIAsset;
-        private round:egret.UIAsset;
+        private stick:egret.gui.UIAsset;
+        private round:egret.gui.UIAsset;
 
         public createChildren():void{
             super.createChildren();
-            this.round = new egret.UIAsset();
+            this.round = new egret.gui.UIAsset();
             this.addElement(this.round);
         }
 
