@@ -16,10 +16,13 @@ module game{
                             self.dash();
                             break;
                     }
-                });  //????document????????????????在这调用别的函数，就会出现找不到的错误
+                });
             }
             else{
-                this.main.addEventListener(egret.TouchEvent.TOUCH_BEGIN,this.mouseDownHandle, this); //??????????????????????
+			var self = this;	//为了使回调函数使用dash，必须让它知道这个Mediator的存在，因为添加监听器的主体是最上层的容器：stage
+				this.main.stage.addEventListener(egret.TouchEvent.TOUCH_TAP,function(){		//使用stage的原因是最上层容器，具有最广泛的作用范围
+					self.dash();
+                },self);
             }
         }
         private lastMoveTime:number = 0;
