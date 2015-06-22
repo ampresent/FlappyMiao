@@ -5,8 +5,8 @@ This demo was based on [Egret Engine][2].
 
 [Preview][1]
 
-1. Wait for seconds to load the game.
-2. Resize the game to fit in the browser.
+1. Wait for seconds to load the game.(Maybe minutes, due to big pics)
+2. Resize the game(by zoom in/out) to fit in the browser.(Due to bad design at the first time, it can't adapt to screens, so only works on PC than phones)
 3. Click the lolipop to start game.
 
 All pictures/resources come from the Internet and my phone camera.
@@ -32,3 +32,5 @@ Completely **free** to use or refer to.
   [1]: http://210.30.97.149:3000/Flappymiao/launcher/index.html
   [2]: http://www.egret.com/
   [3]: https://github.com/egret-labs/egret-core
+
+**NOTE** This demo is more like some sort of Design Pattern practice than game. :p   And it's sealed up now.
