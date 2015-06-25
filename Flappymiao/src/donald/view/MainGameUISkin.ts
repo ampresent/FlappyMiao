@@ -24,17 +24,27 @@ module game {
             //背景
             this.background = new egret.gui.UIAsset();
             this.background.source = "mr.sweats";
+			this.background.height = Constants.mainHeight;
+			this.background.width = Constants.screenWidth*2;
+			//this.background.scaleX *= Constants.Scale;
+			//this.background.scaleY *= Constants.Scale;
             this.addElement(this.background);
 
             //汉堡1
             this.hamburger1 = new egret.gui.UIAsset();
             this.hamburger1.source = "mr.hamburger";
-            this.hamburger1.anchorOffsetY = Constants.mainHeight / 2;
+            this.hamburger1.height = Constants.mainHeight*2;
+            this.hamburger1.width = 140*Constants.Scale;
+			this.hamburger1.anchorOffsetY = Constants.mainHeight/2;
+			console.log(Constants.screenHeight)
+			console.log(Constants.menuHeight);
             this.addElement(this.hamburger1);
 
             this.hamburger2 = new egret.gui.UIAsset();
             this.hamburger2.source = "mr.hamburger";
-            this.hamburger2.anchorOffsetY = Constants.mainHeight / 2;
+            this.hamburger2.height = Constants.mainHeight*2;
+            this.hamburger2.width = 140*Constants.Scale;
+			this.hamburger2.anchorOffsetY = Constants.mainHeight/2;
             this.addElement(this.hamburger2);
 
             this.birdUI = new BirdUI();

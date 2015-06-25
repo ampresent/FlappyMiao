@@ -70,7 +70,7 @@ egret_h5.startGame = function () {
     var container = new egret.EqualToFrame();
     var content = egret.Browser.getInstance().isMobile ? new egret.FixedWidth() : new egret.NoScale();
     var policy = new egret.ResolutionPolicy(container, content);
-    egret.StageDelegate.getInstance().setDesignSize(480, 800, policy);
+    egret.StageDelegate.getInstance().setDesignSize(640, 1136, policy);
 
     context.stage = new egret.Stage(canvas.width, canvas.height);
 

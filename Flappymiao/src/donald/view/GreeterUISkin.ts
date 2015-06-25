@@ -23,23 +23,28 @@ module game{
         public createChildren():void{
             var background = new egret.gui.UIAsset;
             background.source = "mr.foody";
+			background.scaleX *= Constants.Scale;
+			background.scaleY *= Constants.Scale;
             this.addElement(background);
 
+			
             var stick = new egret.gui.UIAsset;
             stick.source = "mr.stick";
-            stick.y = 903;
-            stick.x = 0;
+            stick.y = 903*Constants.Scale;
+            stick.x = 0*Constants.Scale;
+			stick.scaleX *= Constants.Scale;
+			stick.scaleY *= Constants.Scale;
             this.addElement(stick);
 
             this.start_button = new egret.gui.UIAsset();
             this.start_button.source = "mr.round";
-            this.start_button.anchorOffsetX = 300;
-            this.start_button.anchorOffsetY = 300;
-
-            this.start_button.x = 300;
-            this.start_button.y = 900;
+			this.start_button.x = 300 * Constants.Scale;
+			this.start_button.y = 300 * Constants.Scale;
+			this.start_button.scaleX /= Constants.Scale;
+			this.start_button.scaleY /= Constants.Scale;
+            this.start_button.anchorOffsetX = 300*Constants.Scale;
+            this.start_button.anchorOffsetY = -150*Constants.Scale;
             this.addElement(this.start_button);
-
 
             var curtain = new egret.Shape;
             curtain.graphics.beginFill(0x000000,1);
@@ -49,12 +54,7 @@ module game{
             this.curtainObj.source = curtain;
             this.addElement(this.curtainObj);
             this.curtainObj.alpha = 0;
-/*
-
-            var la = new egret.gui.Label;
-            la.text = "wefwf";
-            la.size = 40;
-            this.addElement(la);*/
+			
         }
     }
 

@@ -21,6 +21,8 @@ module game{
             background.source = "mr.gameover";
             background.scaleX *= 1.59;
             background.scaleY *= 1.59;
+            background.scaleX *= Constants.Scale;
+            background.scaleY *= Constants.Scale;
 
             this.tryagin_button = new egret.gui.UIAsset();
             this.tryagin_button.source = "mr.button1";
@@ -28,8 +30,10 @@ module game{
             this.tryagin_button.anchorOffsetY = 0;
             this.tryagin_button.scaleX *= 0.3;
             this.tryagin_button.scaleY *= 0.3;
-            this.tryagin_button.x = 220;
-            this.tryagin_button.y = 320;
+            this.tryagin_button.scaleX *= Constants.Scale;
+            this.tryagin_button.scaleY *= Constants.Scale;
+            this.tryagin_button.x = 220*Constants.Scale;
+            this.tryagin_button.y = 320*Constants.Scale;
             this.addElement(this.tryagin_button);
         }
     }

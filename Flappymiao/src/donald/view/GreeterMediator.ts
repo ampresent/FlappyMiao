@@ -9,6 +9,8 @@ module game{
 
         public startButtonClick():void{
             this.greeterUI.start_button.source = "mr.round2";
+			this.greeterUI.start_button.scaleX *= Constants.Scale;
+			this.greeterUI.start_button.scaleY *= Constants.Scale;
             this.sendNotification(GameCommand.GAME_RESET);
 
             egret.Tween.get(this.greeterUI.start_button).to({rotation:360},1000);

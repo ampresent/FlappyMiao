@@ -14,11 +14,9 @@ module game{
         }
         public reset():void{
             this.pipe1_x = Constants.screenWidth;
-            this.pipe1_y = (Math.random()-0.5)*Constants.mainHeight*0.8;
+			this.pipe1_y = (Math.random()-0.5)*Constants.mainHeight*0.8;
             this.pipe2_x = Constants.screenWidth * 2;
-            this.pipe2_y = (Math.random()-0.5)*Constants.mainHeight*0.8;
-
-            //egret.Logger.info(Math.random()-0.5);
+			this.pipe2_y = (Math.random()-0.5)*Constants.mainHeight*0.8;
         }
 
         public timeout(scale:number):void{

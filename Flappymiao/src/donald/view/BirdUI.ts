@@ -29,6 +29,8 @@ module game {
             var armatureDisplay = this.armature.getDisplay();
             armatureDisplay.scaleX *= Constants.BirdScale;
             armatureDisplay.scaleY *= Constants.BirdScale;
+            armatureDisplay.scaleX *= Constants.Scale;
+            armatureDisplay.scaleY *= Constants.Scale;
             this.source = armatureDisplay;
             dragonBones.animation.WorldClock.clock.add(this.armature);
             //this.anchorOffsetX = -100;

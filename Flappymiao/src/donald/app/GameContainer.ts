@@ -49,7 +49,7 @@ module game{
             this.addElement(this.greeterUI);
 
             this.gameOverUI = new GameOverUI();
-            this.gameOverUI.y = 350;
+            this.gameOverUI.y = 350 * Constants.Scale;
             //this.gameOverUI.alpha = 10;
             this.gameOverUI.visible = false;
             this.addElement(this.gameOverUI);
