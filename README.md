@@ -3,11 +3,12 @@ Flappy Miao
 A HTML5 game/demo, imitating Flappy Bird.
 This demo was based on [Egret Engine][2].
 
+Tested on Iphone5, Android and Chrome browser.
+
 [Preview][1]
 
 1. Wait for seconds to load the game.(Maybe minutes, due to big pics)
-2. Resize the game(by zoom in/out) to fit in the browser.(Due to bad design at the first time, it can't adapt to screens, so only works on PC than phones)
-3. Click the lolipop to start game.
+2. Click/Touch screen to start game/dash.
 
 All pictures/resources come from the Internet and my phone camera.
 
