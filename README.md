@@ -29,7 +29,7 @@ For more details, visit [egret-labs][3].
 Completely **free** to use or refer to.
 
     
-  [1]: http://210.30.97.149:3000/Flappymiao/launcher/index.html
+  [1]: http://210.30.97.149:3000/launcher/index.html
   [2]: http://www.egret.com/
   [3]: https://github.com/egret-labs/egret-core
 

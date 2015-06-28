@@ -11,7 +11,7 @@ module game{
         public static screenWidth = 721.12676056338028169014 *0.8875;
         public static screenHeight = 1280		* 0.8875;
         public static mainHeight = 1120			* 0.8875;
-        public static interval = 50;
+        public static interval = 0;
         public static pipeHeight = 249			* 0.8875;
         public static birdx = 5					* 0.8875;
         public static birdWeidth = 81			* 0.8875;
